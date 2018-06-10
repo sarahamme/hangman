@@ -1,0 +1,65 @@
+* {    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    background-image:url("../images/background.jpg");
+    background-attachment: fixed;
+    background-position: left; 
+    background-size: cover;
+    }
+.header {
+    border-radius: 25px;
+    border: 2px solid white; 
+    background: rgba(255, 255, 255, .5)
+}
+.title{
+    font-size: 70px;
+    text-shadow: 4px 4px 6px #e8a599;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+   
+}
+#bio {
+    font-family: 'Playfair Display', serif;
+    display: inline;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #e8a599;
+}
+
+#lives {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #e8a599;
+}
+.letters {
+    color: black;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #e8a599;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+
+/* .letters a:hover{
+    color: white;
+} */
+
+
+#wordholder{
+    color: black;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #e8a599;
+    font-family: 'Playfair Display', serif;
+}
+
+#stickman {
+    background: rgba(255, 255, 255, .5);
+    border: 2px solid white; 
+    border-radius: 25px;
+
+}

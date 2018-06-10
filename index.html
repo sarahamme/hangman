@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" >
+    <link href="assets/css/fonts.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="header">
+        <h1 class="title">Hangman</h1>
+        <p id="bio"> This game is inspired by all the different coffee roasters around America! Take your guess.</p>
+    </div>
+<div id="lives">
+    <p>You have <span id="mylives">6</span> lives left!</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+                <div class="letters">
+                        <a class="input" id="a">A</a>
+                        <a class="input" id="b">B</a>
+                        <a class="input" id="c">C</a>
+                        <a class="input" id="d">D</a>
+                        <a class="input" id="e">E</a>
+                        <a class="input" id="f">F</a>
+                        <a class="input" id="g">G</a>
+                        <a class="input" id="h">H</a>
+                        <a class="input" id="i">I</a>
+                        <a class="input" id="j">J</a>
+                        <a class="input" id="k">K</a>
+                        <a class="input" id="l">L</a>
+                        <a class="input" id="m">M</a>
+                        <a class="input" id="n">N</a>
+                        <a class="input" id="o">O</a>
+                        <a class="input" id="p">P</a>
+                        <a class="input" id="q">Q</a>
+                        <a class="input" id="r">R</a>
+                        <a class="input" id="s">S</a>
+                        <a class="input" id="t">T</a>
+                        <a class="input" id="u">U</a>
+                        <a class="input" id="v">V</a>
+                        <a class="input" id="w">W</a>
+                        <a class="input" id="x">X</a>
+                        <a class="input" id="y">Y</a>
+                        <a class="input" id="z">Z</a>    
+                 </div>
+        </div>
+        <div class="col-sm-6">
+            <canvas id="stickman" width="300" height="300">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+        </div>
+    </div>
+
+    <div id="wordholder"></div>
+    <input type="button" value="Play Again!" onClick="window.location.reload()">
+    
+ </div>
+
+</body>
+<script src="assets/javascript/game.js">
+
+</script>
+</html>
