@@ -36,6 +36,9 @@ body {
     color: black;
     font-size: 30px;
     text-shadow: 2px 2px 4px #e8a599;
+    padding: 10px;
+    margin: 10px;
+
 }
 .letters {
     color: black;
@@ -45,11 +48,6 @@ body {
     cursor: pointer;
 }
 
-/* .letters a:hover{
-    color: white;
-} */
-
-
 #wordholder{
     color: black;
     font-size: 50px;
@@ -57,7 +55,7 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
-#stickman {
+#mylives {
     background: rgba(255, 255, 255, .5);
     border: 2px solid white; 
     border-radius: 25px;

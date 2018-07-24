@@ -9,6 +9,6 @@
 8 if guessed letter is within word then the letter is unveiled
 9 if the guessed letter is not within the word then subtract one life
 10 display error message if letter was already guessed
-11 
+
 
 

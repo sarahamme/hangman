@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" >
     <link href="assets/css/fonts.css" rel="stylesheet" type="text/css" >
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/Coffee-favicon.png">
 </head>
 <body>
 
@@ -15,9 +16,7 @@
         <h1 class="title">Hangman</h1>
         <p id="bio"> This game is inspired by all the different coffee roasters around America! Take your guess.</p>
     </div>
-<div id="lives">
-    <p>You have <span id="mylives">6</span> lives left!</p>
-</div>
+
 
 <div class="container">
     <div class="row">
@@ -51,9 +50,10 @@
                         <a class="input" id="z">Z</a>    
                  </div>
         </div>
-        <div class="col-sm-6">
-            <canvas id="stickman" width="300" height="300">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+        <div id="lives">
+            <p>You have <span id="mylives">6</span> lives left!</p>
         </div>
+
     </div>
 
     <div id="wordholder"></div>
